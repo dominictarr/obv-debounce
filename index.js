@@ -13,7 +13,7 @@ module.exports = function (obv, delay) {
         timer = setTimeout(function () {
           timer = null
           ts = Date.now()
-          fn(threadsObs.value)
+          fn(obv.value)
         }, delay)
       }
     })
